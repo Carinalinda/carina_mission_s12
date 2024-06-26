@@ -5,9 +5,9 @@ class ConversorDeMedidas:
     def centimetros_para_metros(valor_cm):
         return valor_cm /100
 
-    def metros_para_centimetros():
-        pass
+    def metros_para_centimetros(valor_metros):
+        return valor_metros * 100
 
 #Area de Teste
-result = ConversorDeMedidas.centimetros_para_metros(100)
+result = ConversorDeMedidas.metros_para_centimetros(1)
 print('result:', result)
